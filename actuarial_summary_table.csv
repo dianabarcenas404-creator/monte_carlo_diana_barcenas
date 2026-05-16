@@ -1,0 +1,10 @@
+Indicador,Valor
+Frecuencia promedio,80.0664
+Severidad promedio,7365.6991
+Prima pura,589745.0099
+VaR 95%,762760.1067
+TVaR 95%,816423.6694
+Prima con margen 15%,678206.7614
+Probabilidad de insuficiencia,0.1781
+MAE modelo ML,57949.1104
+R2 modelo ML,0.444

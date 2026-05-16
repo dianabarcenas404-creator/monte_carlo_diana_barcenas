@@ -1,0 +1,23 @@
+{
+    "nombre_proyecto": "Simulación Monte Carlo Actuarial con ML",
+    "descripcion": "Resultados de la simulación Monte Carlo para pérdidas agregadas y modelo de regresión lineal simple.",
+    "parametros_simulacion": {
+        "n_simulaciones": 10000,
+        "lambda_frecuencia": 80,
+        "media_log_severidad": 8.5,
+        "sigma_log_severidad": 0.9,
+        "nivel_confianza": 0.95
+    },
+    "metricas_modelo_ml": {
+        "mae": 57949.1104,
+        "r2": 0.444,
+        "regresion_intercepto": 4252.97,
+        "regresion_coef_frecuencia": 7308.49
+    },
+    "archivos_generados": [
+        "/content/models/linear_regression_model.pkl",
+        "/content/outputs/monte_carlo_simulation_results.csv",
+        "/content/outputs/actuarial_summary_table.csv",
+        "/content/models/monte_carlo_metadata.json"
+    ]
+}
